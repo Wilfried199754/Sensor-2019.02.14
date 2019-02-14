@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=VBUS Pin=U1-1
+Removed Pin From Net: NetName=GND Pin=U1-5
+Removed Member From Class: ClassName=bt Member=U1
+Added Component: Designator=J1(787616)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.tycoelectronics.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Packaging Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://ecommas.tycoelectronics.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F787616%7FK%7Fpdf%7FEnglish%7FENG_CD_787616_K.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ContactMaterial"; Value = "Copper Alloy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ContactPlating"; Value = "Gold Flash over Palladium Nickel or Gold (30) over Nickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetDocument"; Value = "11-Jan-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DrillSize"; Value = "Corresponds to nominal value."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HousingMaterial"; Value = "Thermoplastic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = "Directive 2000/53/EC (ELV) Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDocument"; Value = "11-Jan-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "787616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PanelGround"; Value = "Without"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB_Layout"; Value = "Complies with manufacturer's recommendation."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "15-Jul-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TerminationLength"; Value = "2.29mm [0.090in.]"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBUS Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_2 Pin=R2-1
+Added Net: Name=NetJ1_2
+Added Pin To Net: NetName=NetJ1_3 Pin=J1-3
+Added Pin To Net: NetName=NetJ1_3 Pin=R1-1
+Added Net: Name=NetJ1_3
+Added Member To Class: ClassName=bt Member=Component J1 787616-2
+Added Room: Name=bt
